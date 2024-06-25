@@ -19,7 +19,11 @@
 .banner .silder .item{
     position: absolute;
     inset: 0 0 0 0;
-    transform: translate(550px);
+    transform:rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+
+    
+    translateZ(550px); 
+     
 }
 
 .banner .silder .item img{
