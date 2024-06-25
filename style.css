@@ -12,4 +12,18 @@
     height: 250px;
     top: 10%;
     left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.banner .silder .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: translate(550px);
+}
+
+.banner .silder .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
