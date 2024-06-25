@@ -5,3 +5,11 @@
     overflow: hidden;
     position: relative;
 }
+
+.banner .silder{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+}
